@@ -39,7 +39,7 @@ There is an optional `--nifti` flag that will take nifti files as input and outp
 
 This model was run on CT scans from the ProstateX collection. The AI segmentations are available in the prostate-mr.zip file on the [zenodo record](https://doi.org/10.5281/zenodo.8345959). A radiologist reviewed 10% of the segmentations and found that all of them were acceptable without changes.
 
-- [ ] TODO: You can reproduce the results with the [run_on_idc_data](run_on_idc_data.ipynb) notebook on google colab.
+- You can reproduce the results with the [prostate-mr-run-on-idc-data](prostate-mr-run-on-idc-data.ipynb) notebook on google colab.
 
 #### Run inference on other datasets
 
