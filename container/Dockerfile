@@ -40,7 +40,7 @@ RUN mkdir -p $nnUNet_raw_data_base
 RUN mkdir -p $nnUNet_preprocessed
 RUN mkdir -p $WEIGHTS_DIR
 
-# Pull nnUNet model weights into the container for Task773_Liver
+# Pull nnUNet model weights into the container for Task788_Prostate
 ENV WEIGHTS_FN=Task788_Prostate.zip
 ENV WEIGHTS_URL=https://zenodo.org/record/8290093/files/$WEIGHTS_FN
 RUN wget --directory-prefix ${WEIGHTS_DIR} ${WEIGHTS_URL} --no-check-certificate
