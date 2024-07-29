@@ -43,8 +43,8 @@ This model was run on CT scans from the ProstateX collection. The AI segmentatio
 
 #### Run inference on other datasets
 
-It is useful to run the model on other datasets. The model_performance notebook uses predictions for several other datasets to evaluate the model. First run `prostate_mr_qa_datasets.ipynb` to prepare and download the datasets. THen run `model_performance.ipynb` to evaluate the model.
+It is useful to run the model on other datasets. The model_performance notebook uses predictions for several other datasets to evaluate the model. First run `prostate_mr_qa_datasets.ipynb` to prepare and download the datasets. Then run `model_performance.ipynb` to evaluate the model.
 
-### Training your own weights
+## AIMI2
 
-- [ ] TODO: Refer to the [training instructions](training.md) for more details.
+In 2024 this model was used on the [PROSTATE-MRI-US-BIOPSY](https://www.cancerimagingarchive.net/collection/prostate-mri-us-biopsy/) collection. A radiologist reviewed & corrected 10% of the results. The model performce for this collection can be seen in `model_performance_aimi2.ipynb`.
