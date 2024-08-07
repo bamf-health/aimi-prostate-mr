@@ -163,3 +163,5 @@ qa-results/
 MSD/
 promise12/
 qin-prostate-repeatability/
+gcp_project.txt
+*.dcm
